@@ -1,0 +1,99 @@
+.none {
+  display: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.backgroundImg {
+  width: 100%;
+  height: 100%;
+
+  background-image: url("img/0.png.png");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.7;
+}
+
+.titlesection {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+
+  width: 20%;
+  white-space: nowrap;
+}
+
+table{
+  white-space: nowrap;
+}
+
+button{
+  background: transparent;
+  border: transparent;
+}
+button:hover{
+  transform: scale(1.5);
+  
+}
+
+.submitBtn{
+  border: 1px solid black;
+  background-color: rgb(252, 252, 252);
+}
+
+.formsection {
+  position: absolute;
+
+  top: 35%;
+  left: 5%;
+  width: 90%;
+  height: 36.5%;
+  overflow: hidden;
+
+  font-size: 12px;
+
+  background-color: bisque;
+  white-space: nowrap;
+}
+.formsection:hover{
+  overflow: auto;
+  }
+  
+
+.resultsection {
+  position: absolute;
+  border: solid black 3px;
+  background-color: bisque;
+  top: 28%;
+  left: 27%;
+  width: 46%;
+  height: 50%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.resultsection:hover{
+  overflow: auto;
+  }
+  
+
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: rgba(126, 122, 122, 0.5);
+  border-radius: 20px;
+  border: transparent;
+}
+
+
